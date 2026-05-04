@@ -1,0 +1,31 @@
+10.-
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio8 : MonoBehaviour
+{
+    List<int> listaNumeros = new List<int>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        listaNumeros.Add(10);
+        listaNumeros.Add(20);
+        listaNumeros.Add(30);
+        listaNumeros.Add(40);
+
+
+        print(listaNumeros[1]);
+
+        listaNumeros.Remove(30);
+        print(listaNumeros.Count);
+
+        print(listaNumeros.Count);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
