@@ -1,0 +1,268 @@
+1.-
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class ejercicio1 : MonoBehaviour
+{
+    int[] puntajes = new int[5] { 10, 20, 30, 40, 50 };
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        // Crear un array de puntajes
+
+       
+        print(puntajes[0]);
+        print(puntajes[1]);
+        print(puntajes[2]);
+        print(puntajes[3]);
+        print(puntajes[4]);
+
+     
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+
+
+
+
+
+
+2.-
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio2 : MonoBehaviour
+{
+    List<string> inventario = new List<string>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        // Crear lista de ítems
+
+       
+        inventario.Add("espada");
+        inventario.Add("escudo");
+        inventario.Add("pocion");
+
+        print(inventario[0]);
+        print(inventario[1]);
+        print(inventario[2]);
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+
+
+
+
+
+
+3.-
+using UnityEngine;
+
+public class ejercicio3 : MonoBehaviour
+{
+    int[] vidas = new int[3] { 3, 2, 1 };
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        // Array de vidas
+        
+        print(vidas[0]);
+        print(vidas[1]);
+        print(vidas[2]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+
+
+
+
+
+4.-
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio4 : MonoBehaviour
+{
+    List<string> enemigos = new List<string>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        // Lista de enemigos
+       
+        enemigos.Add("orco");
+        enemigos.Add("dragon");
+        enemigos.Add("zombie");
+        enemigos.Add("esqueleto");
+
+        print(enemigos[0]);
+        print(enemigos[1]);
+        print(enemigos[2]);
+        print(enemigos[3]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+
+
+
+
+
+
+5.-
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio5 : MonoBehaviour
+{
+    int[] numeros = new int[3] { 5, 10, 15 };
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        // Inicialización combinada  
+       
+        List<string> lista = new List<string>();
+        lista.Add("item1");
+        lista.Add("item2");
+
+        print(numeros[0]);
+        print(numeros[1]);
+        print(numeros[2]);
+
+        print(lista[0]);
+        print(lista[1]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+
+
+
+
+
+6.-
+using UnityEngine;
+
+public class ejercicio6 : MonoBehaviour
+{
+    int[] array = new int[5] { 1, 2, 3, 4, 5 };
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        // Mostrar primer y último elemento
+        
+        print("primero: " + array[0]);
+        print("ultimo: " + array[4]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+
+
+
+
+
+
+
+7.-
+using System;
+using Unity.VisualScripting.FullSerializer;
+using UnityEngine;
+
+public class ejercicio7 : MonoBehaviour
+{
+    int[] numeros = new int[9] {1,2,3,4,5,6,7,8,9 };
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        //Modificar posición específica
+
+        numeros[2] = 4;
+        print("el elemento que he cambiado es " + numeros[2]);
+        
+       
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+
+
+
+
+
+8.-
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio8 : MonoBehaviour
+{
+    List<int> listaNumeros = new List<int>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        listaNumeros.Add(10);
+        listaNumeros.Add(20);
+        listaNumeros.Add(30);
+        listaNumeros.Add(40);
+
+
+        print(listaNumeros[1]);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
